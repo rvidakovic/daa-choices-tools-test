@@ -1,0 +1,19 @@
+# DAA Tools — Technical Documentation
+
+This GitHub repository serves as a centralized resource for the Digital Advertising Alliance (DAA) self-regulatory program specifications related to Interest-Based Advertising (IBA), also known as online behavioral advertising (OBA). It is designed for product managers and engineers who need to understand and implement these specifications to promote enhanced transparency and consumer control over data collection and use for online advertising.
+
+The DAA-family Self-Regulatory Programs aim to bridge user choices and ensure that consumers can express their preferences to various parties in the advertising ecosystem through a common method: the AdChoices Icon.
+
+This repository includes documentation for the following core specifications:
+- AdChoices Signal Specification
+- WebChoices Implementation Instructions
+- Protect My Choices Technical Specifications
+
+## Getting Started
+To understand how to integrate with the DAA AdChoices ecosystem, we recommend reviewing the specifications in the following order:
+
+1. **AdChoices Signal Specification:** Understand the core data format for user preferences.
+2. **WebChoices Implementation Instructions:** For companies that need to integrate their opt-out infrastructure with the centralized DAA opt-out tool, especially for non-cookie technologies.
+3. **Protect My Choices v2.0 Technical Specifications:** Understand how to access user preferences directly from the browser extension via JavaScript or HTTP headers.
+
+Each specification provides examples and detailed field descriptions to aid in implementation.
