@@ -18,10 +18,10 @@ Companies use an administration portal to upload and modify their company inform
 ### Integration Requirements for Opt-Out Service Endpoints
 - **Browser Compatibility:** Endpoints must function reliably and quickly on all major browsers and operating systems (desktop and mobile).
 - **Opt-Out Cookies:**
-    -- Generic values should be used for opt-out cookies.
-    -- Minimum lifespan of 5 years, renewed upon subsequent opt-out requests.
-    -- Only cookies necessary to maintain opt-out status should persist.
-    -- Non-cookie based IBA technologies (e.g., statistical identifiers, HTML5 local storage) must honor the presence of an opt-out cookie.
+    - Generic values should be used for opt-out cookies.
+    - Minimum lifespan of 5 years, renewed upon subsequent opt-out requests.
+    - Only cookies necessary to maintain opt-out status should persist.
+    - Non-cookie based IBA technologies (e.g., statistical identifiers, HTML5 local storage) must honor the presence of an opt-out cookie.
 - **Anti-CSRF Tokens:** Allowed but not required; companies using them may face elevated performance SLAs.
 - **Opt Out Failures:** All failures/errors must return a result for processing to avoid endpoint deactivation.
 - **Performance:** Endpoints must respond quickly, ideally using HTTP 302 redirects for non-cookie technologies.
