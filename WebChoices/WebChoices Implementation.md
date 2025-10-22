@@ -1,7 +1,7 @@
 # Implementation Instructions for DAA Participants to WebChoices
 
-Implementation instructions for DAA Participants from the “[<u>the
-choice page</u>](http://www.aboutads.info/choices/)” to WebChoices.
+Implementation instructions for DAA Participants from the “[the
+choice page](http://www.aboutads.info/choices/)” to WebChoices.
 
 WebChoices allows for the transparent and reliable setting of opt-out
 choice from data collection and use for IBA across major browsers.
@@ -289,7 +289,7 @@ WebChoices consumer opt-out tool.
 
 *<u>Sample Requests URLs:</u>*
 
-http://your.domain/with/path/to/endpoint
+`http://your.domain/with/path/to/endpoint`
 ?action_id=3
 &participant_id=10
 &rd=http%3A%2F%2Fwww.aboutads.info
@@ -299,7 +299,7 @@ http://your.domain/with/path/to/endpoint
 |----|:--:|----|
 | action_id | integer | Value “3” indicates a status request and token if applicable |
 | participant_id | string | Participant Identifier for the Opt-out tool to correlate your endpoint with operations. Value is subject to change without notice. |
-| rd | string | hostname and protocol [http://www.aboutads.info](http://www.aboutads.info/) |
+| rd | string | hostname and protocol `http://www.aboutads.info` |
 | nocache | string | Ignore: cache buster |
 
 ### Response (Legacy Specification)
@@ -352,7 +352,7 @@ a URL.</td>
 
 \<**rd**\>/token/\<**participant_id**\>/\<**status**\>/\<**token**\>
 <u>Example:</u>
-http://www.aboutads.info/token/123/1/magic_string
+`http://www.aboutads.info/token/123/1/magic_string`
 
 ### Response (New Specification)
 
@@ -417,10 +417,10 @@ a URL.</td>
 \<rd\>/token/\<participant_id\>/**\<cookie-status\>-\<other-status\>**/\<token\>
 
 Example for company using non-cookie technology:
-http://www.aboutads.info/token/123/1-1/csrftoken
+`http://www.aboutads.info/token/123/1-1/csrftoken`
 
 Example for company using only cookie technology:
-http://www.aboutads.info/token/123/1**-0**/csrftoken
+`http://www.aboutads.info/token/123/1**-0**/csrftoken`
 
 ### Opt Out
 
@@ -464,17 +464,16 @@ optout&gt;.aboutads.info/*</td>
 
 *<u>Sample Requests URLs:</u>*
 
-http://your.domain/endpoint
-
+`http://your.domain/endpoint`
 ?action_id=4&participant_id=10
-&rd=http://www.aboutads.info
+&rd=`http://www.aboutads.info`
 &token=magic_value&nocache=223442
 
 | **Field** | **Data Type** | **Description** |
 |----|:--:|----|
 | action_id | integer | Value “4” indicates an opt out request |
 | participant_id | string | Participant Identifier for the Opt-out tool to correlate your endpoint with operations. Value is subject to change without notice. |
-| rd | string | hostname and protocol http://www.aboutads.info |
+| rd | string | hostname and protocol `http://www.aboutads.info` |
 | token | string | optional Anti-CSRF string if returned during the status check |
 | nocache | string | Ignore: cache buster |
 
@@ -536,7 +535,7 @@ Reserved for future use</p></td>
 \<**rd**\>/finish/\<**participant_id**\>/\<**action_id**\>/\<**result_id**\>/\<**message**\>
 
 <u>Example:</u>
-http://www.aboutads.info/finish/123/4/1/simple_string
+`http://www.aboutads.info/finish/123/4/1/simple_string`
 
 ### Response (New Specification)
 
@@ -610,7 +609,7 @@ Reserved for future use</p></td>
 \<rd\>/finish/\<participant_id\>/\<action_id\>/\<cookie-result\>-\<other-result\>/\<message\>
 
 <u>Example:</u>
-http://www.aboutads.info**/token/**123/1-1/magic_string
+`http://www.aboutads.info**/token/**123/1-1/magic_string`
 
 ## V. ESTABLISHING A FIRST PARTY TRUST RELATIONSHIP
 
@@ -658,7 +657,7 @@ Headers
 
 *<u>Sample Requests URLs:</u>*
 
-http://your.domain/endpoint?action_id=5&nocache=223442
+`http://your.domain/endpoint?action_id=5&nocache=223442`
 
 URL Parameters
 
