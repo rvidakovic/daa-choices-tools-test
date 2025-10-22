@@ -1,10 +1,6 @@
 # AdChoices Signal Specifications
 
-Version: 1.16
-
-Author: Digital Advertising Alliance
-
-Last updated: September 24, 2025
+Bridging User Choices
 
 
 ## Table of Contents
@@ -358,9 +354,8 @@ In OpenRTB 2.6, there is also an object called ```regs``` ([section 3.2.3 of the
 
 ![](https://assets.youradchoices.ca/acs/appendix9.png)
 
-<br>
 
----
+
 
 [^1]: At the time of writing this specification, there are four jurisdictions where Self-Regulatory Programs on IBA exist: US (DAA), Canada (DAAC), Europe (EDAA), and Argentina (APDA).
 
