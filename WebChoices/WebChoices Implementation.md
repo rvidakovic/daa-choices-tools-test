@@ -55,13 +55,13 @@ domain.
 This integration guide contains five sections:
 
 1.  **[CONSUMER OPT-OUT EXPERIENCE](#consumer-opt-out-experience)**
-- An overview of the new opt-out platform additions
+An overview of the new opt-out platform additions
 
 2.  **[WEBCHOICES DEVELOPMENT AND PRODUCTION SITES](#webchoices-development-and-production-sites)**
-- Company information management
+Company information management
 
 3.  **[ONBOARDING PROCESS](#onboarding-process)**
-- Instructions for activating your organization to the new opt-out tool
+Instructions for activating your organization to the new opt-out tool
 
 4.  **[CONSUMER OPT-OUT INTEGRATION SPECIFICATION](#consumer-opt-out-integration-specification)**
 - New browser status reporting
@@ -77,7 +77,7 @@ browsers block third-party cookies with the new opt-out tool
 - Guidelines for using a Trust Cookie (session cookie)
 - Guidelines for response
 
-## CONSUMER OPT-OUT EXPERIENCE
+## I. CONSUMER OPT-OUT EXPERIENCE
 
 The purpose of the WebChoices opt-out tool is to provide consumers with a destination to:
 
@@ -92,26 +92,21 @@ The purpose of the WebChoices opt-out tool is to provide consumers with a destin
     data for Interest-Based Advertising from one, several, or all of the
     companies listed on the WebChoices tool.
 
-## WEBCHOICES DEVELOPMENT AND PRODUCTION SITES
+## II. WEBCHOICES DEVELOPMENT AND PRODUCTION SITES
 
 This section provides instructions on how a company can access the
 WebChoices development site to test integrations before deploying them
 to consumers.
 
 1.  **Access**. WebChoices is accessible at the following URLs:
-
-### For DAA Participants
-
-1.  Staging & Onboarding: <http://dev.aboutads.info>
-
-2.  Production:
-    [<u>http://optout.aboutads.info</u>](http://optout.aboutads.info/)
+- Staging & Onboarding: <https://dev.aboutads.info>
+- Production: <https://optout.aboutads.info/>
 
 2.  **Credentials**. The staging environment is essentially a sandbox
     where companies’ opt-out functionality can be tested without being
     released to the public.
 
-## ONBOARDING PROCESS
+## III. ONBOARDING PROCESS
 
 This section provides information on how companies can onboard their
 organization’s information and endpoints to the WebChoices opt-out
@@ -166,7 +161,7 @@ platform.
     production environment and your endpoint will be available to
     consumers.
 
-## CONSUMER OPT-OUT INTEGRATION SPECIFICATION
+## IV. CONSUMER OPT-OUT INTEGRATION SPECIFICATION
 
 This section describes what is required to implement a WebChoices
 Opt-Out Service Endpoint capable of integrating with the cookie-based
@@ -427,7 +422,7 @@ http://www.aboutads.info/token/123/1-1/csrftoken
 Example for company using only cookie technology:
 http://www.aboutads.info/token/123/1**-0**/csrftoken
 
-## Opt Out
+### Opt Out
 
 Opt out a consumer from the collection and use of data for IBA by
 setting an “opt-out” cookie on the consumer’s browser. **This action
@@ -617,7 +612,7 @@ Reserved for future use</p></td>
 <u>Example:</u>
 http://www.aboutads.info**/token/**123/1-1/magic_string
 
-## ESTABLISHING A FIRST PARTY TRUST RELATIONSHIP
+## V. ESTABLISHING A FIRST PARTY TRUST RELATIONSHIP
 
 This is a new feature available for all companies, regardless if they
 utilize cookies exclusively or also use non-cookie technologies for
@@ -707,7 +702,7 @@ URL Parameters
     company endpoints to ensure timely opt-out delivery to consumers’
     browsers.
 
----
+
 
 [^1]: Cookie-less technologies in this WebChoices document do
 NOT include IDFA, AAID, hashed emails and phone numbers. DAA offers
