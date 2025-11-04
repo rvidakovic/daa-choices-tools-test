@@ -11,7 +11,7 @@ The DAA-family Self-Regulatory Programs aim to bridge user choices and ensure th
 ## Getting Started
 To understand how to integrate with the DAA AdChoices ecosystem, we recommend reviewing the specifications in the following order:
 
-1. **AdChoices Signal Specification:** Understand the core data format (a machine-readable string) for encoding user preferences.
+1. **AdChoices Signal Specification:** Understand the core data format (a machine-readable string) for encoding user preferences. Important data flow diagrams contained within.
 2. **WebChoices Implementation Instructions:** For companies that need to integrate their opt-out infrastructure with the centralized consumer-facing DAA opt-out tool.
 3. **Protect My Choices v2.0 Technical Specifications:** Understand how to access user preferences, via the AdChoices Signal, directly from the browser extension via JavaScript or HTTP headers.
 
