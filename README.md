@@ -17,6 +17,11 @@ To understand how to integrate with the DAA AdChoices ecosystem, we recommend re
 
 Each specification provides examples and detailed field descriptions to aid in implementation.
 
+## Participation & Next Steps
+If you’re already a DAA participant, these tools are available to you now in the U.S., Canada, and Argentina (no extra jurisdictional cost at this time). Future fees may apply.
+
+For integration questions, please contact [jamie@aboutads.info](mailto:jamie@aboutads.info)
+
 ## About the DAA and AdChoices
 The Digital Advertising Alliance (DAA) is a non-profit industry self-regulatory body backed by leading advertising trade associations. For over a decade, we've run the AdChoices program, which gives consumers transparency (clear notice) and control (easy-to-use tools) over interest-based advertising (IBA), which is sometimes called online behavioral advertising.
 
