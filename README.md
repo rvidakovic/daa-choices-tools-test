@@ -16,3 +16,8 @@ To understand how to integrate with the DAA AdChoices ecosystem, we recommend re
 3. **Protect My Choices v2.0 Technical Specifications:** Understand how to access user preferences directly from the browser extension via JavaScript or HTTP headers.
 
 Each specification provides examples and detailed field descriptions to aid in implementation.
+
+## About the DAA and AdChoices
+The Digital Advertising Alliance (DAA) is a non-profit industry self-regulatory body backed by leading advertising trade associations. For over a decade, we've run the AdChoices program, which gives consumers transparency (clear notice) and control (easy-to-use tools) over interest-based advertising (IBA), which is sometimes called online behavioral advertising.
+
+The AdChoices Icon is the program's most visible element. It appears on ads, websites, and apps, and links users to information about data collection and their privacy options. It's served trillions of times per month worldwide and is recognized by consumers as a privacy signal and way to understand who has delivered an ad to them.
