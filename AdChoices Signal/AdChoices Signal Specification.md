@@ -334,7 +334,7 @@ In OpenRTB 2.6, there is also an object called ```regs``` ([section 3.2.3 of the
 
 ## Appendix 6: String Format Graphic Illustration
 
-![](https://assets.youradchoices.ca/acs/appendix6.png)
+![String Format Graphic Illustration](https://assets.aboutads.info/docs/appendix6.png)
 
 ## Appendix 7: AdChoices Signal Usage Illustration
 
@@ -342,7 +342,7 @@ In OpenRTB 2.6, there is also an object called ```regs``` ([section 3.2.3 of the
 
 ## Appendix 8: Reading The AdChoices Signal From The PMC Extension
 
-![](https://assets.youradchoices.ca/acs/appendix9.png)
+![Reading The AdChoices Signal From The PMC Extension](https://assets.aboutads.info/docs/appendix8.png)
 
 
 
