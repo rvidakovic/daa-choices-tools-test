@@ -1,54 +1,26 @@
 # Implementation Instructions for DAA Participants to WebChoices
 
-Implementation instructions for DAA Participants from the “[the
-choice page](http://www.aboutads.info/choices/)” to WebChoices.
-
-WebChoices allows for the transparent and reliable setting of opt-out
-choice from data collection and use for IBA across major browsers.
-
-The new feature set in WebChoices is particularly relevant when
-companies use non-third party cookies (First-Party Cookies) or
-cookie-less[^1]/non-cookie technologies for interest-based
-advertising (“IBA”) (collectively “non-cookie technologies”).
-Companies using non-cookie tech should integrate with WebChoices 2.0
-as it makes setting opt outs more transparent and allows opt outs to
-be set in more cases than in the current version.
-
-If your company does NOT engage in third-party IBA using non-cookie
-technologies, then you do not need to manually integrate with this
-tool, as migration from the current choice page to WebChoices will
-occur automatically. However, you may need to whitelist the
-subdomains - <u>optout.aboutads.info and dev.aboutads.info for testing
-purposes</u>.
-
-Links to access the WebChoices Tool should point to [optout.aboutads.info](https://optout.aboutads.info).
-
-## WebChoices
+## WebChoices | Cookies and Extension Opt Outs
 
 Centralized Consumer Opt-Out Platform
 
-### PUBLISHED/UPDATED October 2025
+WebChoices provides transparent and reliable opt-out choice from 
+data collection and use for interest-based advertising (IBA) across 
+major browsers. Companies integrating new or updated endpoints can 
+use dev.aboutads.info to test cookie-based and extension-based 
+opt-outs. The tool includes a link to the Protect My Choices extension, 
+to which the site can write. Companies can then install the extension 
+to verify their ability to read and decode the AdChoices Signal.
 
-This document describes how the opt-out platform works and how to
-integrate your company’s opt-out infrastructure with the WebChoices
-tool. This opt-out platform is backwards compatible with the DAA’s old
-choice page.
+This document describes how the opt-out platform works and how to integrate 
+your company’s cookie-based opt-out infrastructure with the WebChoices tool. 
+The platform is fully backwards compatible with the DAA’s old choice page. 
+For testing purposes, companies may need to whitelist [optout.aboutads.info](https://optout.aboutads.info) and 
+[dev.aboutads.info](https://dev.aboutads.info).
 
-### Onboarding and Management \| Cookies and Extension Opt Outs
-
-Companies integrating new or updated endpoints can use
-dev.aboutads.info to test their cookie-based opt outs alongside
-extension-based opt outs. The development site will include a link to
-the Protect My Choices extension, to which the site can write.
-Companies can then install the extension to verify their ability to
-read and decode the AdChoices Signal.
-
-The WebChoices tool resides at: [optout.aboutads.info](https://optout.aboutads.info)
-
-Some links to access the WebChoices Tool point to
-[<u>www.aboutads.info/choices</u>](http://www.aboutads.info/choices),
-the old URL for the DAA Choice Page. DAA will redirect to this sub
-domain.
+Links directing users to the WebChoices tool should point to [optout.aboutads.info](https://optout.aboutads.info). 
+Older links to www.aboutads.info/choices, the former URL for the DAA Choice Page, 
+will be redirected to the correct subdomain.
 
 ## Contents
 
