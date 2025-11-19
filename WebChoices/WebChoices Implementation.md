@@ -26,22 +26,22 @@ will be redirected to the correct subdomain.
 
 This integration guide contains five sections:
 
-I.  **[CONSUMER OPT-OUT EXPERIENCE](#consumer-opt-out-experience)**
+I.  **[CONSUMER OPT-OUT EXPERIENCE](#i-consumer-opt-out-experience)**
 - An overview of the new opt-out platform additions
 
-II.  **[WEBCHOICES DEVELOPMENT AND PRODUCTION SITES](#webchoices-development-and-production-sites)**
+II.  **[WEBCHOICES DEVELOPMENT AND PRODUCTION SITES](#ii-webchoices-development-and-production-sites)**
 - Company information management
 
-III.  **[ONBOARDING PROCESS](#onboarding-process)**
+III.  **[ONBOARDING PROCESS](#iii-onboarding-process)**
 - Instructions for activating your organization to the new opt-out tool
 
-IV.  **[CONSUMER OPT-OUT INTEGRATION SPECIFICATION](#consumer-opt-out-integration-specification)**
+IV.  **[CONSUMER OPT-OUT INTEGRATION SPECIFICATION](#iv-consumer-opt-out-integration-specification)**
 - New browser status reporting
 - General Requirements
 - Status and Token
 - Opt Out
 
-V.  **[ESTABLISHING A FIRST PARTY TRUST RELATIONSHIP](#establishing-a-first-party-trust-relationship)**
+V.  **[ESTABLISHING A FIRST PARTY TRUST RELATIONSHIP](#v-establishing-a-first-party-trust-relationship)**
 - How to set an opt-out cookie in the “From Visited” scenario when
 browsers block third-party cookies with the new opt-out tool
 - Request
